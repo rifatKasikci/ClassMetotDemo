@@ -10,13 +10,16 @@ namespace ClassMetotDemo
 
 
             Musteri musteri1 = new Musteri();
+            musteri1.musteriId = 1;
             musteri1.musteriTc = 78945612301;
             musteri1.musteriAd = "Ahmet";
             musteri1.musterıSoyad = "Öztürk";
 
+
             musteriManager.AddCustomer(musteri1);
 
             Musteri musteri2 = new Musteri();
+            musteri2.musteriId = 2;
             musteri2.musteriTc = 12345678910;
             musteri2.musteriAd = "Kerem";
             musteri2.musterıSoyad = "Yağcı";
@@ -24,6 +27,7 @@ namespace ClassMetotDemo
             musteriManager.deleteCustomer(musteri2);
 
             Musteri musteri3 = new Musteri();
+            musteri3.musteriId = 3;
             musteri3.musteriTc = 45678912309;
             musteri3.musteriAd = "Ayça";
             musteri3.musterıSoyad = "Bağ";

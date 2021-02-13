@@ -29,6 +29,7 @@ namespace ClassMetotDemo
             foreach (Musteri musteri in musteriler)
             {
                 Console.WriteLine("*************************************");
+                Console.WriteLine("Müşterinin Id numarası : " + musteri.musteriId);
                 Console.WriteLine("Müşterinin TC Kimlik Numarası : " + musteri.musteriTc);
                 Console.WriteLine("Müşterinin Adı Soyadı : " + musteri.musteriAd + " " + musteri.musterıSoyad);
                 
